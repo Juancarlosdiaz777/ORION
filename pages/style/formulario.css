@@ -1,0 +1,35 @@
+form{
+    position: relative;
+    top: 100px;
+    left: 40%;
+    width: 30%;
+    /*background-color: aqua;*/
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+form>img{
+    width: 80%;
+    padding-bottom: 30px;
+}
+
+form>input{
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    border-color: dodgerblue;
+    border-top-style: none ;
+    border-left-style: none ;
+    border-right-style: none ;
+    border-top-style: none ;
+}
+
+form>input:focus{
+    outline: none;
+}
+
+.recordarContrasena{
+    padding-top: 10px;
+
+}

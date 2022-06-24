@@ -1,0 +1,46 @@
+body{
+    font-family: 'grandstander',cursive;
+    align-content: center;
+}
+
+
+table {
+
+    border-collapse: collapse;
+    font-size: 20px;
+    font-style: italic;
+    /*defino la sombra ancho en eje x, eje y, intensidad de la sombra el color distancia, difuminacion */
+    text-shadow: 5px 5px 5px cornflowerblue;
+    /* insetar una imagen*/
+    background-image: url(../imges/Qatar-Airways-Logo-600x338-1.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+th,td {
+    border-style: ridge;
+    padding: 15px;
+}
+
+tr>th{
+    background-color: azure;
+    text-align: center;
+}
+
+td>img{
+    content: 200×150;
+    padding: 2px,0px;
+    width: 300px;
+    height: 170px;
+
+}
+
+/*aplicamos la seudoclase al selector del tbody que tenga como hijo un tr*/
+/*tbody>tr:hover{
+    background-color: azure;
+} */
